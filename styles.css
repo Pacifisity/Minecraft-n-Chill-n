@@ -87,6 +87,11 @@ h1 {
     .navbar h1 {
         font-size: 0;
     }
+
+    .navbar li a {
+        padding: 10px;
+        margin: 0;
+    }
 }
 
 /* Hides scrollbar without affecting functionality */

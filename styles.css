@@ -83,7 +83,7 @@ h1 {
 }
 
 
-@media screen and (max-width: u00px) {
+@media screen and (max-width: 800px) {
     .navbar h1 {
         font-size: 0;
     }

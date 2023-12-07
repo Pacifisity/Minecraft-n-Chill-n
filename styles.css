@@ -36,7 +36,7 @@ h1 {
     display: flex;
 }
 
-.navbar li {
+.navbar li a {
     border-right: 1px solid purple;
     border-left: 1px solid purple;
     border-radius: 10px;
@@ -44,7 +44,7 @@ h1 {
     margin: 0 10px;
 }
 
-.navbar li:hover {
+.navbar li a:hover {
     background-color: purple;
 }
 

@@ -91,7 +91,7 @@ body::-webkit-scrollbar {
     width: 100%;
     border-bottom: 3px solid purple;
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: opacity 1s ease;
     aspect-ratio: 2/1;
 }
 
@@ -139,11 +139,6 @@ body::-webkit-scrollbar {
     border: 2px solid purple;
 }
 
-.g-left, .g-mid, .g-right {
-    width: 33%;
-    float: left;
-}
-
 .card {
     background-color: black;
     padding: 20px;
@@ -163,20 +158,8 @@ body::-webkit-scrollbar {
     aspect-ratio: 3/1;
 }
 
-@media screen and (max-width: 1200px) {
-    .g-left {
-        width: 100%;
-    }
-
-    .g-mid, .g-right {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .g-left, .g-mid, .g-right {
-        width: 100%;
-    }
+.card p {
+    text-align: center;
 }
 
 /* World styling */
